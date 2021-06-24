@@ -1,0 +1,71 @@
+#mainArea {
+    margin-top: 150px;
+    text-align: center;
+    
+}
+#searchBar {
+    padding: 10px;
+    max-width: 500px;
+    margin-left: 400px;
+    border-radius: 20px;
+    border-width: thin;
+}
+#he {
+    padding: 8;
+    border-radius: 20px;
+
+}
+form {
+    display: flex;
+}
+input {
+    flex-grow: 1;
+}
+#profim {
+    border-radius: 20px;
+}
+#nav  {
+    margin-top: 20px;
+    text-align: right;
+}
+#nav a {
+    margin-right: 10px;
+}
+#underBar {
+    min-width: 120px;
+    padding: 8px;
+    border-style: hidden;
+    border-radius: 5px;
+    height: 35px;
+    background-color: #f8f9fa;
+}
+#foot {
+    background-color:rgb(212, 212, 212);
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 80px;
+    padding-left: 0;
+    
+}
+body {
+    margin: 0;
+}
+#underBar:hover {
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: gray;
+}
+#foot2 {
+    position: fixed;
+    bottom: 0; 
+}
+#foot2r {
+    text-align: right;
+    position: relative;
+    bottom: 0;
+}
+#foot a {
+    padding-right: 5px;
+}
